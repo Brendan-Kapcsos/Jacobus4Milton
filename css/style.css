@@ -9,6 +9,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
 }
 
 h1,
@@ -415,6 +416,7 @@ footer a {
   .desktop-tim {
     position: relative;
     height: calc(100%);
+    width: auto;
     top: 0;
     left: 2vw;
     z-index: 0;
