@@ -105,6 +105,8 @@ img {
   top: -50px;
   left: 8vw;
   z-index: 0;
+  object-fit: cover;
+  align-self: flex-start;
 }
 
 /* newsletter */
@@ -415,8 +417,8 @@ footer a {
 @media (max-width: 767px) {
   .desktop-tim {
     position: relative;
-    height: calc(100%);
-    width: auto;
+    height: auto;
+    width: 100%;
     top: 0;
     left: 2vw;
     z-index: 0;
@@ -496,6 +498,13 @@ footer a {
   .navbar>.container {
     flex-direction: column;
     gap: 10px;
+  }
+  .banner-sub-heading {
+    font-size: 3.75rem;
+  }
+
+  .banner-para{
+    font-size: 2rem !important;
   }
 }
 
